@@ -1,0 +1,7 @@
+services:
+  - name: Eudennnnn
+    type: web
+    env: production
+    buildCommand: yarn build
+    startCommand: yarn start
+    region: us-east-1
