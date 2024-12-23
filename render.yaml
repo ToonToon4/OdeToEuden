@@ -1,6 +1,7 @@
 services:
   - name: Eudennnnn
     type: web
+    runtime: node
     env: production
     buildCommand: yarn build
     startCommand: yarn start
